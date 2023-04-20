@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chat App</title>
+    <link rel="icon" type="image/png" href="../public/messagem_icon.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/chat.css" />
+  </head>
+  <body>
+    <div class="chat-app">
+      <div class="menu">
+        <div class="content-user">
+          <div class="persona" id="persona-image"></div>
+          <span id="my-name">Me edite -></span>
+        </div>
+        <div class="content-menu">
+          <button class="menu-button">
+            <img src="../public/dot-menu.svg" alt="dots" />
+          </button>
+        </div>
+      </div>
+      <div class="content-chat">
+        <div class="chat-list">
+          <ul>
+            <li class="active">Chat 1</li>
+            <li>Chat 2</li>
+          </ul>
+        </div>
+
+        <div class="chat-box">
+          <div class="chat-messages">
+            <div class="content-messages">
+              <ul>
+                <li class="message">
+                  <p>Hello World!</p>
+                </li>
+              </ul>
+              <div class="load-message">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <div class="chat-input">
+              <input type="text" placeholder="Type your message here" />
+              <button>
+                <img class="send-image" src="../public/send.svg" alt="send" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-edit-infos">
+        <div>
+          <span>URL da imagem</span>
+          <input class="input-image-user" type="text" />
+        </div>
+        <div>
+          <span>Seu nome</span>
+          <input class="input-name" type="text" />
+        </div>
+        <div>
+          <button class="save-edit">Salvar</button>
+          <button class="cancel-edit">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../js/chat.js"></script>
+</html>
