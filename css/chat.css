@@ -121,10 +121,6 @@ body {
   height: 100%;
   flex-wrap: wrap;
   margin: 50px auto 0;
-
-  @media (min-width: 768px) {
-    flex-wrap: nowrap;
-  }
 }
 
 .content-chat.removed {
@@ -138,10 +134,6 @@ body {
   list-style: none;
   overflow-x: hidden;
   overflow-y: hidden;
-
-  @media (min-width: 768px) {
-    flex-basis: 20%;
-  }
 }
 
 .chat-list li {
@@ -185,9 +177,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-}
-
-.chat-messages {
 }
 
 .content-messages {
@@ -312,6 +301,16 @@ body {
 
 .chat-input button:hover {
   background-color: #3e8e41;
+}
+
+@media screen and (min-width: 768px) {
+  .content-chat {
+    flex-wrap: nowrap;
+  }
+
+  .chat-list {
+    flex-basis: 20%;
+  }
 }
 
 /* animation */
