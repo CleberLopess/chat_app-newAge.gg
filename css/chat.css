@@ -225,6 +225,10 @@ body {
   max-width: calc(100% - 15%);
 }
 
+.chat-messages ul .you .user-image {
+  background-color: #bbbfbf;
+}
+
 .chat-messages ul .me {
   justify-content: end;
   flex-direction: row-reverse;
