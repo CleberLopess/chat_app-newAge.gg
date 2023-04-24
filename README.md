@@ -7,7 +7,7 @@
 As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)
-- [TypeScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [ES6+](https://www.w3schools.com/js/js_es6.asp)
 
